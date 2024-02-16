@@ -7,7 +7,7 @@ function App() {
   let now = new Date().getTime();
   let difference = endGame-now;
   const [time, setTime] = useState(difference)
-  
+
   useEffect(() => {
 
     setTimeout(() => {
@@ -27,6 +27,7 @@ function App() {
   return (
     <>
     <div className="countDown">
+      <h2>Hello</h2>
       <h1 style={{color:"red"}}>{days} days {hours}h {minutes}m {seconds}s {difference%1000}ms</h1>
     </div>
     </>
