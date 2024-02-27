@@ -3,7 +3,7 @@ import './App.css'
 import { useEffect } from 'react';
 import img from './assets/img1.jpg';
 function App() {
-  const endGame = new Date('Mar 11, 2024 23:59:59').getTime();
+  const endGame = new Date('Mar 12, 2024 23:59:59').getTime();
   let difference
   const [days, setDays] = useState('')
   const [hours, setHours] = useState('')
